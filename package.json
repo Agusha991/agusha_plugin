@@ -1,6 +1,6 @@
 {
   "name": "agusha_nikita",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple Vue 3 plugin with modal and components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,8 +25,7 @@
   },
   "homepage": "https://github.com/Agusha991/agusha_plugin.git#readme",
   "dependencies": {
-    "some-package": "workspace:*",
-    "agusha_nikita": "file:agusha_nikita-1.0.6tgz",
+    "agusha_nikita": "file:agusha_nikita-1.0.7.tgz",
     "vue": "^3.0.0"
   },
   "devDependencies": {
