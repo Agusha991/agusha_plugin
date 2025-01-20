@@ -1,0 +1,42 @@
+{
+  "name": "agusha_nikita",
+  "version": "1.0.1",
+  "description": "A simple Vue 3 plugin with modal and components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agusha991/agusha_plugin.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "plugin",
+    "modal"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Agusha991/agusha_plugin/issues"
+  },
+  "homepage": "https://github.com/Agusha991/agusha_plugin.git#readme",
+  "dependencies": {
+    "agusha_nikita": "file:agusha_nikita-1.0.0.tgz",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "sass": "^1.83.4",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.0.0",
+    "vue-loader": "^16.8.3",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
