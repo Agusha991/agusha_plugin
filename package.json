@@ -1,7 +1,7 @@
 {
-  "name": "agusha_nikita",
+  "name": "modal-plugin-nikita",
   "version": "1.0.16",
-  "description": "A simple Vue 3 plugin with modal and components",
+  "description": "test plugin modals",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Agusha991/agusha_plugin.git"
+    "url": "git+https://github.com/Agusha991/modal-plugin-nikita.git"
   },
   "keywords": [
     "vue",
@@ -21,9 +21,9 @@
   "author": "Agusha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Agusha991/agusha_plugin/issues"
+    "url": "https://github.com/Agusha991/modal-plugin-nikita/issues"
   },
-  "homepage": "https://github.com/Agusha991/agusha_plugin.git#readme",
+  "homepage": "https://github.com/Agusha991/modal-plugin-nikita.git#readme",
   "dependencies": {
     "vue": "^3.0.0"
   },
