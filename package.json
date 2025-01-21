@@ -1,6 +1,6 @@
 {
   "name": "agusha_nikita",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A simple Vue 3 plugin with modal and components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

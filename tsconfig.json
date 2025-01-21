@@ -7,9 +7,17 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "preserve",
-    "lib": ["dom", "esnext"]
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ]
   },
   "include": [
+    "src/**/*",
     "src/**/*.ts",
     "src/**/*.vue",
     "shims-vue.d.ts"
