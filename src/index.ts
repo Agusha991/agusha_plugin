@@ -1,23 +1,22 @@
 import { App } from 'vue';
 import Modal from './components/Modal.vue';
 
-const MyPlugin = {
+export default {
     install(app: App) {
-        // Регистрация глобального компонента
         app.component('Modal', Modal);
 
-        // Добавление методов в глобальный экземпляр Vue
-        app.config.globalProperties.$modal = {
-            open: (data: object) => {
-                // Логика для открытия модального окна
-                console.log('Open modal with data:', data);
+        const modalMethods = {
+            open({name, options}: {name: string, options: object}) {
+                console.log(`Opening modal: ${name}`, options);
+                // Your modal opening logic here
             },
-            close: () => {
-                // Логика для закрытия модального окна
-                console.log('Close modal');
+            close(id: number) {
+                console.log(`Closing modal: ${id}`);
+                // Your modal closing logic here
             },
         };
+
+        // Make $modal globally accessible
+        app.config.globalProperties.$modal = modalMethods;
     },
 };
-
-export default MyPlugin;
